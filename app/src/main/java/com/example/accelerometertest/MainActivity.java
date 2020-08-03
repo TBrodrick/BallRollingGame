@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         valShow = (TextView) findViewById(R.id.val);
-        valShow.setText("Test");
+        //valShow.setText("Test");
         myManager = (SensorManager)getSystemService(Context.SENSOR_SERVICE);
         mAcc = myManager.getDefaultSensor(Sensor.TYPE_GYROSCOPE);
     }
